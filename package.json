@@ -1,6 +1,6 @@
 {
     "name": "system-admin-server",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A system that enables debugging of server application",
     "main": "./system-admin-server.json",
     "keywords": [
@@ -16,9 +16,9 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/system-sdk/system-server-admin"
+        "url": "https://github.com/system-sdk/system-admin-server"
     },
     "bugs": {
-        "url": "https://github.com/system-sdk/system-server-admin/issues"
+        "url": "https://github.com/system-sdk/system-admin-server/issues"
     }
 }
