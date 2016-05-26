@@ -1,0 +1,23 @@
+{
+    "name": "system-admin-server",
+    "version": "0.1.0",
+    "description": "A system that enables debugging of server application",
+    "keywords": [
+        "system",
+        "admin",
+        "server"
+    ],
+    "author": {
+        "name": "erwan carriou",
+        "email": "erwan.carriou@mac.com",
+        "twitter": "@ecarriou"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/system-sdk/system-server-admin"
+    },
+    "bugs": {
+        "url": "https://github.com/system-sdk/system-server-admin/issues"
+    }
+}
