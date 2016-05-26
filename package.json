@@ -1,7 +1,8 @@
 {
     "name": "system-admin-server",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A system that enables debugging of server application",
+    "main": "./system-admin-server.json",
     "keywords": [
         "system",
         "admin",
