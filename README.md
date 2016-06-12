@@ -5,7 +5,7 @@
 To enable design mode on your application, just require *system-admin-server* module in your application, and run it:
 
 ```js
-// to use 'require' system-admin-server module
+// to use 'require' in system-admin-server module
 global.require = require;
 
 var admin = require('system-admin-server');
