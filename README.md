@@ -18,7 +18,7 @@ runtime.require(systemId).main();
 * open the *Configuration* panel,
 * select *Server-side* as value for *Type of debugging*,
 * set `http://localhost` as value for *Url of the server to debug*,
-* click on the debug button,
+* click on the design button (the target icon),
 * a panel *A system has been found* is shown
 * click on *OK*.
 
