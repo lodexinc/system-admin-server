@@ -2,17 +2,27 @@
 
 ## Install
 
-To enable design mode on your application, just require *system-admin-server* module in your application, and run it:
+To enable design mode on your node application, install the packages:
+
+```sh
+// install system runtime module
+$ npm install system-runtime --save
+
+// install admin runtime module
+$ npm install system-admin-server --save
+```
+
+Then:
 
 ```js
-// to use 'require' in system-admin-server module
-global.require = require;
+// require system runtime
+var runtime = require('system-runtime');
 
-var admin = require('system-admin-server');
+// install admin system
+var id = runtime.install('system-admin-server');
 
-// run admin system
-var systemId = runtime.require('db').system(admin);
-runtime.require(systemId).main();
+// start admin system
+runtime.start(id);
 ```
 
 ## Design
