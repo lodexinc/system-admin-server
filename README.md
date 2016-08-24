@@ -5,10 +5,10 @@
 To enable design mode on your node application, install the packages:
 
 ```sh
-// install system runtime module
+// install system runtime package
 $ npm install system-runtime --save
 
-// install admin runtime module
+// install admin package
 $ npm install system-admin-server --save
 ```
 
