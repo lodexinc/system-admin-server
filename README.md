@@ -28,7 +28,7 @@ runtime.start(id);
 // example
 
 // create a system
-var system = runtime.system('example01');
+var system = runtime.system('myapp');
 
 // add your code in the start method of the system
 system.on('start', function () {
