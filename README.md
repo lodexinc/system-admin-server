@@ -23,6 +23,20 @@ var id = runtime.install('system-admin-server');
 
 // start admin system
 runtime.start(id);
+
+// install your system from here or create one
+// example
+
+// create a system
+var system = runtime.system('example01');
+
+// add your code in the start method of the system
+system.on('start', function () {
+    console.log('Hello world !');
+});
+
+// start your system
+system.start();
 ```
 
 ## Design
