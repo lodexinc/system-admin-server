@@ -18,11 +18,8 @@ Then:
 // require system runtime
 var runtime = require('system-runtime');
 
-// install admin system
-var id = runtime.install('system-admin-server');
-
-// start admin system
-runtime.start(id);
+// install and start admin system
+runtime.install('system-admin-server');
 
 // install your system from here or create one
 // example

@@ -1,6 +1,6 @@
 {
     "name": "system-admin-server",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "A system that enables designing of server application",
     "main": "./system-admin-server.json",
     "keywords": [
